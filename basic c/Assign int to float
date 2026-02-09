@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a;
+    scanf("%d",&a);
+    float f=a;
+    printf("%.1f",f);
+    return 0;
+}
