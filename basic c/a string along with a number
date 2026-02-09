@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int age;
+    scanf("%d",&age);
+    printf("AGE:%d",age);
+    return 0;
+}
