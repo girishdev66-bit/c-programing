@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int age;
+    scanf("%d", &age);
+    if (age < 12)
+        printf("Discount Ticket");
+    else
+        printf("Regular Ticket");
+    return 0;
+}
