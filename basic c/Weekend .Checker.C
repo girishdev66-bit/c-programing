@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int day;
+    scanf("%d", &day);
+    if (day == 6 || day == 7)
+        printf("Weekend");
+    else
+        printf("Weekday");
+    return 0;
+}
